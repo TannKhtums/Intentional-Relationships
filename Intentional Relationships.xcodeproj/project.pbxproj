@@ -7,18 +7,76 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		529FBA2044FFA0A3BD78AD40 /* Pods_Intentional_Relationships.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A61734217A0F5C2588981F6 /* Pods_Intentional_Relationships.framework */; };
+		B310698328555C2A004E8F1D /* GroupDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B310698228555C2A004E8F1D /* GroupDetailView.swift */; };
+		B3A92245283DBA2900486870 /* QuoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A92244283DBA2900486870 /* QuoteView.swift */; };
+		B3A92247283DBA6400486870 /* GroupsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A92246283DBA6400486870 /* GroupsView.swift */; };
+		B3A9224B283DBBD400486870 /* SelfMainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A9224A283DBBD400486870 /* SelfMainMenu.swift */; };
+		B3A9224D283DBD7200486870 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A9224C283DBD7200486870 /* SettingsView.swift */; };
+		B3ABB560284580D2001FE178 /* GroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3ABB55F284580D2001FE178 /* GroupCell.swift */; };
+		B3ABB5622845811F001FE178 /* GroupCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3ABB5612845811F001FE178 /* GroupCellViewModel.swift */; };
+		B3ABB564284586FC001FE178 /* GroupListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3ABB563284586FC001FE178 /* GroupListView.swift */; };
+		B3ABB56628458715001FE178 /* AddGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3ABB56528458715001FE178 /* AddGroupView.swift */; };
+		B3ABB5682845876C001FE178 /* Groups.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3ABB5672845876C001FE178 /* Groups.swift */; };
+		B3ABB56A28458856001FE178 /* GroupRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3ABB56928458856001FE178 /* GroupRepository.swift */; };
+		B3ABB56C28484497001FE178 /* GroupListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3ABB56B28484497001FE178 /* GroupListViewModel.swift */; };
 		B3E232D0282DFBC50006F37B /* Intentional_RelationshipsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E232CF282DFBC50006F37B /* Intentional_RelationshipsApp.swift */; };
 		B3E232D2282DFBC50006F37B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E232D1282DFBC50006F37B /* ContentView.swift */; };
 		B3E232D4282DFBC80006F37B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3E232D3282DFBC80006F37B /* Assets.xcassets */; };
 		B3E232D7282DFBC80006F37B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3E232D6282DFBC80006F37B /* Preview Assets.xcassets */; };
+		B3E232E1282DFEB90006F37B /* PersonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E232E0282DFEB90006F37B /* PersonView.swift */; };
+		B3E232E32830ABB40006F37B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B3E232E22830ABB40006F37B /* GoogleService-Info.plist */; };
+		B3E232E528347FD60006F37B /* DailyToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E232E428347FD60006F37B /* DailyToDo.swift */; };
+		B3E232E72834812C0006F37B /* TaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E232E62834812C0006F37B /* TaskListView.swift */; };
+		B3E232E928351C820006F37B /* TaskCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E232E828351C820006F37B /* TaskCellViewModel.swift */; };
+		B3E232EB28351E820006F37B /* TaskListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E232EA28351E820006F37B /* TaskListViewModel.swift */; };
+		B3E232EE283C5F3E0006F37B /* TaskRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E232ED283C5F3E0006F37B /* TaskRepository.swift */; };
+		B3EBD3EE28596C7100E0366F /* ContactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EBD3ED28596C7100E0366F /* ContactModel.swift */; };
+		B3EBD3F028596ED900E0366F /* ContactRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EBD3EF28596ED900E0366F /* ContactRepository.swift */; };
+		B3EBD3F22859722100E0366F /* ContactCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EBD3F12859722100E0366F /* ContactCellViewModel.swift */; };
+		B3EBD3F4285973A600E0366F /* ContactListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EBD3F3285973A600E0366F /* ContactListViewModel.swift */; };
+		B3EBD3F62859752000E0366F /* ContactDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EBD3F52859752000E0366F /* ContactDetailView.swift */; };
+		B3EBD4122861530300E0366F /* ContactListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EBD4112861530300E0366F /* ContactListView.swift */; };
+		B3EBD414286154F700E0366F /* AddContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EBD413286154F700E0366F /* AddContactView.swift */; };
+		B3EBD41628615A4000E0366F /* ContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EBD41528615A4000E0366F /* ContactCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		87DEEC08BF518B8C5990C5AC /* Pods-Intentional Relationships.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Intentional Relationships.debug.xcconfig"; path = "Target Support Files/Pods-Intentional Relationships/Pods-Intentional Relationships.debug.xcconfig"; sourceTree = "<group>"; };
+		8A61734217A0F5C2588981F6 /* Pods_Intentional_Relationships.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Intentional_Relationships.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		962FCBF3EE64B418F64AB62A /* Pods-Intentional Relationships.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Intentional Relationships.release.xcconfig"; path = "Target Support Files/Pods-Intentional Relationships/Pods-Intentional Relationships.release.xcconfig"; sourceTree = "<group>"; };
+		B310698228555C2A004E8F1D /* GroupDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupDetailView.swift; sourceTree = "<group>"; };
+		B3A92244283DBA2900486870 /* QuoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteView.swift; sourceTree = "<group>"; };
+		B3A92246283DBA6400486870 /* GroupsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsView.swift; sourceTree = "<group>"; };
+		B3A9224A283DBBD400486870 /* SelfMainMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfMainMenu.swift; sourceTree = "<group>"; };
+		B3A9224C283DBD7200486870 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		B3ABB55F284580D2001FE178 /* GroupCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupCell.swift; sourceTree = "<group>"; };
+		B3ABB5612845811F001FE178 /* GroupCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupCellViewModel.swift; sourceTree = "<group>"; };
+		B3ABB563284586FC001FE178 /* GroupListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupListView.swift; sourceTree = "<group>"; };
+		B3ABB56528458715001FE178 /* AddGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGroupView.swift; sourceTree = "<group>"; };
+		B3ABB5672845876C001FE178 /* Groups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Groups.swift; sourceTree = "<group>"; };
+		B3ABB56928458856001FE178 /* GroupRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupRepository.swift; sourceTree = "<group>"; };
+		B3ABB56B28484497001FE178 /* GroupListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupListViewModel.swift; sourceTree = "<group>"; };
 		B3E232CC282DFBC50006F37B /* Intentional Relationships.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Intentional Relationships.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3E232CF282DFBC50006F37B /* Intentional_RelationshipsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intentional_RelationshipsApp.swift; sourceTree = "<group>"; };
 		B3E232D1282DFBC50006F37B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B3E232D3282DFBC80006F37B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3E232D6282DFBC80006F37B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B3E232E0282DFEB90006F37B /* PersonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonView.swift; sourceTree = "<group>"; };
+		B3E232E22830ABB40006F37B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B3E232E428347FD60006F37B /* DailyToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyToDo.swift; sourceTree = "<group>"; };
+		B3E232E62834812C0006F37B /* TaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListView.swift; sourceTree = "<group>"; };
+		B3E232E828351C820006F37B /* TaskCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCellViewModel.swift; sourceTree = "<group>"; };
+		B3E232EA28351E820006F37B /* TaskListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListViewModel.swift; sourceTree = "<group>"; };
+		B3E232ED283C5F3E0006F37B /* TaskRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRepository.swift; sourceTree = "<group>"; };
+		B3EBD3ED28596C7100E0366F /* ContactModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactModel.swift; sourceTree = "<group>"; };
+		B3EBD3EF28596ED900E0366F /* ContactRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactRepository.swift; sourceTree = "<group>"; };
+		B3EBD3F12859722100E0366F /* ContactCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCellViewModel.swift; sourceTree = "<group>"; };
+		B3EBD3F3285973A600E0366F /* ContactListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListViewModel.swift; sourceTree = "<group>"; };
+		B3EBD3F52859752000E0366F /* ContactDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailView.swift; sourceTree = "<group>"; };
+		B3EBD4112861530300E0366F /* ContactListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListView.swift; sourceTree = "<group>"; };
+		B3EBD413286154F700E0366F /* AddContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactView.swift; sourceTree = "<group>"; };
+		B3EBD41528615A4000E0366F /* ContactCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +84,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				529FBA2044FFA0A3BD78AD40 /* Pods_Intentional_Relationships.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06DA5F25F89AD20DD1C46C86 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				87DEEC08BF518B8C5990C5AC /* Pods-Intentional Relationships.debug.xcconfig */,
+				962FCBF3EE64B418F64AB62A /* Pods-Intentional Relationships.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		1B3EC637180C4F4806092F4D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A61734217A0F5C2588981F6 /* Pods_Intentional_Relationships.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B3E232C3282DFBC50006F37B = {
 			isa = PBXGroup;
 			children = (
 				B3E232CE282DFBC50006F37B /* Intentional Relationships */,
 				B3E232CD282DFBC50006F37B /* Products */,
+				06DA5F25F89AD20DD1C46C86 /* Pods */,
+				1B3EC637180C4F4806092F4D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,8 +129,12 @@
 		B3E232CE282DFBC50006F37B /* Intentional Relationships */ = {
 			isa = PBXGroup;
 			children = (
+				B3E232E22830ABB40006F37B /* GoogleService-Info.plist */,
 				B3E232CF282DFBC50006F37B /* Intentional_RelationshipsApp.swift */,
-				B3E232D1282DFBC50006F37B /* ContentView.swift */,
+				B3E232DD282DFE590006F37B /* Models */,
+				B3E232EC283C5EA30006F37B /* Repositories */,
+				B3E232DE282DFE660006F37B /* View Models */,
+				B3E232DF282DFE700006F37B /* Views */,
 				B3E232D3282DFBC80006F37B /* Assets.xcassets */,
 				B3E232D5282DFBC80006F37B /* Preview Content */,
 			);
@@ -67,6 +149,61 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		B3E232DD282DFE590006F37B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B3E232E428347FD60006F37B /* DailyToDo.swift */,
+				B3ABB5672845876C001FE178 /* Groups.swift */,
+				B3EBD3ED28596C7100E0366F /* ContactModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B3E232DE282DFE660006F37B /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				B3EBD3F12859722100E0366F /* ContactCellViewModel.swift */,
+				B3EBD3F3285973A600E0366F /* ContactListViewModel.swift */,
+				B3ABB5612845811F001FE178 /* GroupCellViewModel.swift */,
+				B3ABB56B28484497001FE178 /* GroupListViewModel.swift */,
+				B3E232E828351C820006F37B /* TaskCellViewModel.swift */,
+				B3E232EA28351E820006F37B /* TaskListViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		B3E232DF282DFE700006F37B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B3E232E0282DFEB90006F37B /* PersonView.swift */,
+				B3EBD3F52859752000E0366F /* ContactDetailView.swift */,
+				B3EBD41528615A4000E0366F /* ContactCell.swift */,
+				B3EBD4112861530300E0366F /* ContactListView.swift */,
+				B3EBD413286154F700E0366F /* AddContactView.swift */,
+				B3ABB55F284580D2001FE178 /* GroupCell.swift */,
+				B3ABB563284586FC001FE178 /* GroupListView.swift */,
+				B3ABB56528458715001FE178 /* AddGroupView.swift */,
+				B310698228555C2A004E8F1D /* GroupDetailView.swift */,
+				B3E232D1282DFBC50006F37B /* ContentView.swift */,
+				B3A92244283DBA2900486870 /* QuoteView.swift */,
+				B3A92246283DBA6400486870 /* GroupsView.swift */,
+				B3A9224A283DBBD400486870 /* SelfMainMenu.swift */,
+				B3A9224C283DBD7200486870 /* SettingsView.swift */,
+				B3E232E62834812C0006F37B /* TaskListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B3E232EC283C5EA30006F37B /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				B3E232ED283C5F3E0006F37B /* TaskRepository.swift */,
+				B3ABB56928458856001FE178 /* GroupRepository.swift */,
+				B3EBD3EF28596ED900E0366F /* ContactRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +211,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B3E232DA282DFBC80006F37B /* Build configuration list for PBXNativeTarget "Intentional Relationships" */;
 			buildPhases = (
+				1D039375492DEBC0F12CB2F7 /* [CP] Check Pods Manifest.lock */,
 				B3E232C8282DFBC50006F37B /* Sources */,
 				B3E232C9282DFBC50006F37B /* Frameworks */,
 				B3E232CA282DFBC50006F37B /* Resources */,
+				0BC7B5A5CC77B748EA9D75E1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,18 +266,87 @@
 			files = (
 				B3E232D7282DFBC80006F37B /* Preview Assets.xcassets in Resources */,
 				B3E232D4282DFBC80006F37B /* Assets.xcassets in Resources */,
+				B3E232E32830ABB40006F37B /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0BC7B5A5CC77B748EA9D75E1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Intentional Relationships/Pods-Intentional Relationships-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Intentional Relationships/Pods-Intentional Relationships-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Intentional Relationships/Pods-Intentional Relationships-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1D039375492DEBC0F12CB2F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Intentional Relationships-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B3E232C8282DFBC50006F37B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3E232EB28351E820006F37B /* TaskListViewModel.swift in Sources */,
+				B3EBD4122861530300E0366F /* ContactListView.swift in Sources */,
+				B3ABB56C28484497001FE178 /* GroupListViewModel.swift in Sources */,
+				B3A9224B283DBBD400486870 /* SelfMainMenu.swift in Sources */,
+				B3E232E1282DFEB90006F37B /* PersonView.swift in Sources */,
+				B3E232EE283C5F3E0006F37B /* TaskRepository.swift in Sources */,
+				B3EBD414286154F700E0366F /* AddContactView.swift in Sources */,
 				B3E232D2282DFBC50006F37B /* ContentView.swift in Sources */,
+				B3A92247283DBA6400486870 /* GroupsView.swift in Sources */,
+				B310698328555C2A004E8F1D /* GroupDetailView.swift in Sources */,
 				B3E232D0282DFBC50006F37B /* Intentional_RelationshipsApp.swift in Sources */,
+				B3EBD3F4285973A600E0366F /* ContactListViewModel.swift in Sources */,
+				B3EBD41628615A4000E0366F /* ContactCell.swift in Sources */,
+				B3ABB564284586FC001FE178 /* GroupListView.swift in Sources */,
+				B3ABB560284580D2001FE178 /* GroupCell.swift in Sources */,
+				B3EBD3EE28596C7100E0366F /* ContactModel.swift in Sources */,
+				B3ABB5622845811F001FE178 /* GroupCellViewModel.swift in Sources */,
+				B3E232E928351C820006F37B /* TaskCellViewModel.swift in Sources */,
+				B3EBD3F62859752000E0366F /* ContactDetailView.swift in Sources */,
+				B3EBD3F028596ED900E0366F /* ContactRepository.swift in Sources */,
+				B3E232E528347FD60006F37B /* DailyToDo.swift in Sources */,
+				B3ABB5682845876C001FE178 /* Groups.swift in Sources */,
+				B3A9224D283DBD7200486870 /* SettingsView.swift in Sources */,
+				B3A92245283DBA2900486870 /* QuoteView.swift in Sources */,
+				B3ABB56A28458856001FE178 /* GroupRepository.swift in Sources */,
+				B3EBD3F22859722100E0366F /* ContactCellViewModel.swift in Sources */,
+				B3ABB56628458715001FE178 /* AddGroupView.swift in Sources */,
+				B3E232E72834812C0006F37B /* TaskListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +471,7 @@
 		};
 		B3E232DB282DFBC80006F37B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87DEEC08BF518B8C5990C5AC /* Pods-Intentional Relationships.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -277,12 +486,13 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "tannergarlick.Intentional-Relationships";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tannergarlick.IntentionalRelationships;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -292,6 +502,7 @@
 		};
 		B3E232DC282DFBC80006F37B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 962FCBF3EE64B418F64AB62A /* Pods-Intentional Relationships.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -306,12 +517,13 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "tannergarlick.Intentional-Relationships";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tannergarlick.IntentionalRelationships;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
