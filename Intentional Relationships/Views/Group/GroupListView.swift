@@ -15,6 +15,10 @@ struct GroupListView: View {
         NavigationView {
 
             VStack {
+                NavigationLink(destination: ContactListView()) {
+                    Text("Contact List")
+                }
+                .padding()
                 NavigationLink(destination: PersonView()) {
                     Text("ContactView")
                 }

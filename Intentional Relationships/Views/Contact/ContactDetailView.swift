@@ -12,6 +12,7 @@ struct ContactDetailView: View {
     var contactViewModel: ContactCellViewModel
     
     var body: some View {
+        NavigationView {
             ScrollView {
                 VStack {
                     HStack {
@@ -89,6 +90,8 @@ struct ContactDetailView: View {
 
                 }
             }
+        }
+
 
         }
     }

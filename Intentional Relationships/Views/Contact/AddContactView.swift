@@ -35,42 +35,12 @@ struct AddContactView: View {
                     TextField("Memories", text: $memories)
                     TextField("Takeaways", text: $takeaways)
                 }
+                
+                Button("Add Contact") {
+                    let contact = Contact(firstName: firstName, lastName: lastName, birthday: birthday, groupTag: groupTag, groupColor: groupColor)
+                    didAddContact(contact)
+                }
             }
         }
     }
 }
-
-//struct Contact: Identifiable, Codable {
-//    @DocumentID var id: String?
-//    var firstName: String
-//    var lastName: String
-//    var birthday: String
-//    var groupTag: String
-//    var groupColor: String
-//    var greatTraits: [String]? = nil
-//    var memories: [String]? = nil
-//    var takeaways: [String]? = nil
-//}
-
-//struct AddGroupView: View {
-//    @State private var name: String = ""
-//
-//    //need to let Firestore know that we have a new card
-//    //callback flag:
-//    var didAddGroup: (_ group: Group) -> Void
-//
-//    var body: some View {
-//        NavigationView {
-//            VStack {
-//                Form {
-//                    TextField("Group Name", text: $name)
-//                }
-//
-//                Button("Add Group") {
-//                    let group = Group(name: name, color: "Blue")
-//                    didAddGroup(group)
-//                }
-//            }
-//        }
-//    }
-//}

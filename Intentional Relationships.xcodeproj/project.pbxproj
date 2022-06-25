@@ -204,7 +204,6 @@
 				B3EBD41528615A4000E0366F /* ContactCell.swift */,
 				B3EBD4112861530300E0366F /* ContactListView.swift */,
 				B3EBD413286154F700E0366F /* AddContactView.swift */,
-				B3ABB55F284580D2001FE178 /* GroupCell.swift */,
 			);
 			path = Contact;
 			sourceTree = "<group>";
@@ -216,6 +215,7 @@
 				B3ABB563284586FC001FE178 /* GroupListView.swift */,
 				B3ABB56528458715001FE178 /* AddGroupView.swift */,
 				B310698228555C2A004E8F1D /* GroupDetailView.swift */,
+				B3ABB55F284580D2001FE178 /* GroupCell.swift */,
 			);
 			path = Group;
 			sourceTree = "<group>";

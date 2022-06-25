@@ -18,7 +18,7 @@ struct ContactListView: View {
             Text("Hello, World!")
             List{
                 ForEach(contactListViewModel.contactViewModels) { contactViewModel in
-                    NavigationLink(destination: ContactCell(contactViewModel: contactViewModel)) {
+                    NavigationLink(destination: ContactDetailView(contactViewModel: contactViewModel)) {
                         ContactCell(contactViewModel: contactViewModel)
                     }
                 }
